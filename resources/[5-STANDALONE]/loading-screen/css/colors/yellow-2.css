@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+:root{
+  --main-color: #1d1d1d4c;
+  --accent-color: #f79f7b
+}
+
+a {
+color: var(--main-color);
+}
+
+p a {
+color: var(--accent-color);
+}
+
+#main-menu {
+background: var(--main-color);
+}
+
+.color-me {
+color: var(--main-color);
+}
+
+.awesome {
+color: var(--accent-color);
+}
+
+@-webkit-keyframes glow {
+    0% {
+		border-color: var(--main-color);x
+    }	
+    100% {
+		border-color: var(--main-color);
+    }
+}
+@-moz-keyframes glow {
+    0% {
+		border-color: var(--main-color);
+    }	
+    100% {
+		border-color: var(--main-color);
+    }
+}
+@-o-keyframes glow {
+    0% {
+		border-color: var(--main-color);
+    }	
+    100% {
+		border-color: var(--main-color);
+    }
+}
+@-ms-keyframes glow {
+    0% {
+		border-color: var(--main-color);
+    }	
+    100% {
+		border-color: var(--main-color);
+    }
+}
+@keyframes glow {
+    0% {
+		border-color: var(--main-color);
+    }	
+    100% {
+		border-color: var(--main-color);
+    }
+}
+
+.submit-button {
+color: #fff;
+background: #fff;
+}
+
+.submit-button::before {
+color: #fff;
+background: var(--main-color);
+}
+
+.submit-button:hover {
+color: #000000;
+background: #fff;
+}
+
+.submit-button-2 {
+color: #fff;
+background: #fff;
+}
+
+.submit-button-2::before {
+color: #fff;
+background: var(--main-color);
+}
+
+.submit-button-2:hover {
+color: #000;
+background: #fff;
+}
+
+.owl-page.active span {    
+background: var(--main-color);
+}
+
+.expand { 
+background: var(--main-color);
+}
+
+.options-head {
+background: var(--main-color);
+}
+
+#main-menu li .active {
+  color: var(--accent-color);
+}
+
+#main-menu .credits a {
+  color: var(--accent-color);
+
+}
+
+.menu-nav-wrapper {
+  backdrop-filter: blur(10px);
+}
