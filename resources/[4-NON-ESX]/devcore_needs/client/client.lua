@@ -2064,20 +2064,4 @@ function playAnim(animDict, animName, duration)
 end
 
 
-RegisterCommand('reload', function()
-	local ped = PlayerPedId()
-	local hp  = GetEntityHealth(ped)
-	ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
-		local isMale = skin.sex == 0
-		TriggerEvent('skinchanger:loadDefaultModel', isMale, function()
-			ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin)
-				TriggerEvent('skinchanger:loadSkin', skin)
-				TriggerEvent('esx:restoreLoadout')
-			end)
-		end)
-	end)
-	SetEntityHealth(ped, hp)
-	ESX.UI.Menu.CloseAll()
-	SetNuiFocus(false, false)
-	ClearPedTasks(ped)
-end, false)
+
