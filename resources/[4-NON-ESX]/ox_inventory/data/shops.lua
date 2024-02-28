@@ -2,9 +2,7 @@ return {
 
 	Ammunation = {
 		name = 'Ammunation',
-		blip = {
-			id = 110, colour = 69, scale = 0.8
-		}, inventory = {
+		inventory = {
 			{ name = 'ammo-9', price = 5, },
 			{ name = 'WEAPON_KNIFE', price = 200 },
 			{ name = 'WEAPON_BAT', price = 100 },
