@@ -1,4 +1,4 @@
-Locales['en'] = {
+Locales['fr'] = {
   ['cleanup_limit'] = 'Tu dois avoir une bouteille pleine',
   ['already'] = 'Tu as déjà quelque chose dans les mains',
   ['alreadybottle'] = 'Tu n\'as pas assez de  ml dans la bouteille',
