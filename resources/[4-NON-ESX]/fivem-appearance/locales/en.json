@@ -1,0 +1,141 @@
+{
+  "modal": {
+    "save": {
+      "title": "Enregistrer la personnalisation",
+      "description": "Vous resterez laid(e)"
+    },
+    "exit": {
+      "title": "Quitter la personnalisation",
+      "description": "Aucun changement ne sera enregistré"
+    },
+    "accept": "Oui",
+    "decline": "Non"
+  },
+  "ped": {
+    "title": "Personnage",
+    "model": "Modèle"
+  },
+  "headBlend": {
+    "title": "Héritage",
+    "shape": {
+      "title": "Visage",
+      "firstOption": "Père",
+      "secondOption": "Mère",
+      "mix": "Mélange"
+    },
+    "skin": {
+      "title": "Peau",
+      "firstOption": "Père",
+      "secondOption": "Mère",
+      "mix": "Mélange"
+    }
+  },
+  "faceFeatures": {
+    "title": "Traits du visage",
+    "nose": {
+      "title": "Nez",
+      "width": "Largeur",
+      "height": "Hauteur",
+      "size": "Taille",
+      "boneHeight": "Hauteur de l'os",
+      "boneTwist": "Torsion de l'os",
+      "peakHeight": "Hauteur du sommet"
+    },
+    "eyebrows": {
+      "title": "Sourcils",
+      "height": "Hauteur",
+      "depth": "Profondeur"
+    },
+    "cheeks": {
+      "title": "Joues",
+      "boneHeight": "Hauteur de l'os",
+      "boneWidth": "Largeur de l'os",
+      "width": "Largeur"
+    },
+    "eyesAndMouth": {
+      "title": "Yeux et bouche",
+      "eyesOpening": "Ouverture des yeux",
+      "lipsThickness": "Épaisseur des lèvres"
+    },
+    "jaw": {
+      "title": "Mâchoire",
+      "width": "Largeur",
+      "size": "Taille"
+    },
+    "chin": {
+      "title": "Menton",
+      "lowering": "Abaissement",
+      "length": "Longueur",
+      "size": "Taille",
+      "hole": "Taille du trou"
+    },
+    "neck": {
+      "title": "Cou",
+      "thickness": "Épaisseur"
+    }
+  },
+  "headOverlays": {
+    "title": "Apparence",
+    "hair": {
+      "title": "Cheveux",
+      "style": "Style",
+      "color": "Couleur",
+      "highlight": "Mèches",
+      "fade": "Dégradé"
+    },
+    "opacity": "Opacité",
+    "style": "Style",
+    "color": "Couleur",
+    "blemishes": "Imperfections",
+    "beard": "Barbe",
+    "eyebrows": "Sourcils",
+    "ageing": "Vieillissement",
+    "makeUp": "Maquillage",
+    "blush": "Fard à joues",
+    "complexion": "Teint",
+    "sunDamage": "Dommages du soleil",
+    "lipstick": "Rouge à lèvres",
+    "moleAndFreckles": "Grains de beauté et taches de rousseur",
+    "chestHair": "Poils de poitrine",
+    "bodyBlemishes": "Imperfections corporelles",
+    "eyeColor": "Couleur des yeux"
+  },
+  "components": {
+    "title": "Vêtements",
+    "drawable": "Vêtement",
+    "texture": "Texture",
+    "mask": "Masque",
+    "upperBody": "Haut du corps",
+    "lowerBody": "Bas du corps",
+    "bags": "Sacs et parachute",
+    "shoes": "Chaussures",
+    "scarfAndChains": "Écharpe et chaînes",
+    "shirt": "Chemise",
+    "bodyArmor": "Gilet pare-balles",
+    "decals": "Décalcomanies",
+    "jackets": "Vestes"
+  },
+  "props": {
+    "title": "Accessoires",
+    "drawable": "Accessoire",
+    "texture": "Texture",
+    "hats": "Chapeaux et casques",
+    "glasses": "Lunettes",
+    "ear": "Oreille",
+    "watches": "Montres",
+    "bracelets": "Bracelets"
+  }, 
+  "tattoos": {
+    "title": "Tatouages",
+    "items": {
+      "ZONE_TORSO": "Torse",
+      "ZONE_HEAD": "Tête",
+      "ZONE_LEFT_ARM": "Bras gauche",
+      "ZONE_RIGHT_ARM": "Bras droit",
+      "ZONE_LEFT_LEG": "Jambe gauche",
+      "ZONE_RIGHT_LEG": "Jambe droite"
+    },
+    "apply": "Appliquer", 
+    "delete": "Supprimer"
+  }
+}
